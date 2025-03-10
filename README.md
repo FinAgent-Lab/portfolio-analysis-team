@@ -1,6 +1,6 @@
 # Portfolio Analysis Team
 
-자산 분석 팀의 프로젝트입니다.
+Portfolio Analysis 팀의 프로젝트입니다.
 
 ## 파일구조
 
