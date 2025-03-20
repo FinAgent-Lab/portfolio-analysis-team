@@ -12,7 +12,7 @@ class StockAPI:
         self.PDNO = os.environ.get("PDNO")
         self.ORD_UNPR = os.environ.get("ORD_UNPR")
         self.URL_BASE = "https://openapi.koreainvestment.com:9443"
-        self.PATH = "uapi/domestic-stock/v1/trading/inquire-psbl-order"
+        self.PATH = "/uapi/domestic-stock/v1/trading/inquire-balance"
         self.access_token = self._get_access_token()
 
     def _get_access_token(self):
